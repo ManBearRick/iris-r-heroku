@@ -15,7 +15,7 @@ compose_email(
     subject = 'test 123',
     credentials = creds(
       user = '',
-      pass_envvar = smtp_pass,
+      pass_envvar = Sys.getenv(smtp_pass),
       provider = NULL,
       host = 'odusa-org.mail.protection.outlook.com',
       port = '',
