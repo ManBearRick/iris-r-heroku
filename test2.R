@@ -1,3 +1,3 @@
-Sys.getenv('test')
+test2 <- Sys.getenv('test2')
 
-print(test)
+print(test2)

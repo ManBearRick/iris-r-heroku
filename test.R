@@ -17,6 +17,7 @@ compose_email(
       user = '',
       provider = NULL,
       host = 'odusa-org.mail.protection.outlook.com',
+      pass_envvar = Sys.getenv('test'),
       port = '',
       use_ssl = TRUE
       
