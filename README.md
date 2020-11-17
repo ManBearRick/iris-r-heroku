@@ -1,2 +1,2 @@
-# iris-r-heroku
-Deploying the iris predictor web app built with R shiny on Heroku
+# heroku test
+Deploying test R app to heroku using R buildpack
