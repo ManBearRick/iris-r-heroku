@@ -13,13 +13,10 @@ compose_email(
     from = 'ricko@odusa.org',
     to = 'ricko@odusa.org',
     subject = 'test 123',
-    credentials = creds(
-      user = '',
+    credentials = creds_anonymous(
       provider = NULL,
       host = 'odusa-org.mail.protection.outlook.com',
-      pass_envvar = Sys.getenv('test'),
       port = '',
       use_ssl = TRUE
-      
     )
   )
